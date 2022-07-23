@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 .topsection {
     display: flex;
     flex-direction: column;
@@ -15,7 +20,7 @@ img {
 .header {
     display: flex;
     justify-content: flex-end;
-    gap: 450px;
+    gap: 460px;
     align-items: center;
 }
 
