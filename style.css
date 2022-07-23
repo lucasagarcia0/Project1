@@ -1,0 +1,46 @@
+.topsection {
+    display: flex;
+    flex-direction: column;
+    background-color: #1f2937;
+}
+
+img {
+    width: 600px;
+    height: auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    gap: 125px;
+}
+
+.list {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.body1text {
+    display: flex;
+    flex-direction: column;
+}
+
+.body1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 150px;
+    margin-left: 110px;
+    align-items: center;
+}
+
+button {
+    width: 120px;
+}
+
+.small {
+    display: flex;
+    flex-wrap: wrap;
+    width: 355px;
+}
