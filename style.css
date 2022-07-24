@@ -86,10 +86,13 @@ button {
     font-weight: 900;
 }
 
+
+
+
 .sectiontwo {
     display: flex;
     flex-direction: column;
-    height: 600px;
+    height: 450px;
     padding-top: 50px;
 }
 
@@ -136,4 +139,34 @@ button {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-align: center;
     color: #1f2937;
+}
+
+
+
+.sectionthree {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7Eb;
+    height: 450px;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    display: flex;
+    flex-wrap: wrap;
+    width: 825px;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.author {
+    align-self: flex-end;
+    padding-right: 300px;
+    font-size: 32px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #1f2937;
+    font-weight: bold;
 }
