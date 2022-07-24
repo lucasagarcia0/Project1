@@ -20,7 +20,7 @@ img {
 .header {
     display: flex;
     justify-content: flex-end;
-    gap: 460px;
+    gap: 455px;
     align-items: center;
 }
 
@@ -47,7 +47,7 @@ img {
     gap: 50px;
 }
 
-button {
+button.first {
     width: 120px;
     color: #E5E7Eb;
     background-color: #3882f6;
@@ -169,4 +169,57 @@ button {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: #1f2937;
     font-weight: bold;
+}
+
+
+.sectionfour {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 330px;
+}
+
+.empty {
+    width: 900px;
+    height: 150px;
+    background-color: #3882f6;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+}
+
+.boxtext {
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.call {
+    font-size: 28px;
+}
+
+.sign {
+    font-size: 15px;
+}
+
+button.second {
+    width: 140px;
+    height: 40px;
+    background-color: #3882f6;
+    border-color: white;
+    border-radius: 10px;
+    border-width: 2px;
+    border-style: solid;
+    color: white;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: #1f2937;
+    color: #E5E7Eb;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
